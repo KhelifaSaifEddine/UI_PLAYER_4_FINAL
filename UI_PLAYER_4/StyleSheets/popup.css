@@ -1,0 +1,69 @@
+.chat_compenent{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    border: #9c6e3f solid 2px;
+    -webkit-box-shadow: -1px 1px 9px 5px rgba(0,0,0,0.48); 
+    box-shadow: -1px 1px 9px 5px rgba(0,0,0,0.48);
+    outline: #9c6e3f solid 2px 1px;
+    
+}
+.image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.section-popup{
+    position: fixed;
+    margin: auto;
+    flex-direction: column;
+    top: 30%;
+    bottom: 20%;
+
+    width: 960px;
+    height: 600px;
+    
+    font-size: 25px;
+    z-index: 5;
+    background-size: 100%;
+ 
+    color: white;
+    font-family: 'Bitter', Tahoma, Geneva, Verdana, sans-serif;
+
+  display: none;
+}
+.section-popup.open{
+    display: flex;
+}
+
+.doubledborder2{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #9c6e3f;
+    outline:1px solid #9c6e3f;
+    outline-offset:-5px;
+    background: rgba(33, 26, 36, 0.9);
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.canvas3{
+    position: absolute;   
+    top: 0.2%;
+    left: 0.2%;
+   
+}
+#close_button_animation{
+    width: 5.5%;
+   position: absolute;
+   top: -3%;
+   right: -1.7%;
+   cursor: pointer;
+}

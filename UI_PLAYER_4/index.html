@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player_STATS</title>
+
+    <link rel="stylesheet" href="./StyleSheets/main.css">
+    <link rel="stylesheet" href="./StyleSheets/header.css">
+    <link rel="stylesheet" href="./StyleSheets/stats.css">
+    <link rel="stylesheet" href="./StyleSheets/content.css">
+    <link rel="stylesheet" href="./StyleSheets/popup.css">
+    <link rel="stylesheet" href="./StyleSheets/Compenents.css">
+    <link rel="stylesheet" href="./StyleSheets/gallery.css">
+    <link rel="stylesheet" href="./StyleSheets/compenent_chat.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+    <!-- CSS FOR THE BODY CAN BE FOUND IN main.css-->
+<body>
+    <!-- CSS FOR THE HEADER PART CAN BE FOUND IN header.css-->
+    <header>
+        <nav>
+            <a href="##">STATS</a> <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#">QUEST</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="###">DUNGEON</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="####">CHAT</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#####">GALLERY</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+        </nav>
+        <section>
+            <div class = "icon-nav-bar">
+              
+                <img src="images/Header_Elements/04 streak.png" alt="image of streak">
+                <p id ="streaks">183</p>  <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar">
+                <img src="images/Header_Elements/05 quests.png" alt="image of quest stone">
+                <p id ="quests">153</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+
+            </div>
+
+            <div class = "icon-nav-bar">
+               
+                <img src="images/Header_Elements/06 fire stones.png" alt="image of fire stone">
+                <p id ="stones" >155</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar-avatar">
+                <img src="images/Header_Elements/Avatar.png" alt="">
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <section class="section-popup">
+
+        </section>
+        <!--THIS SECTION IS FOR PLAYER STATS , CSS FOR THIS PART CAN BE FOUND IN popup.css-->
+        <!--THIS SECTION IS FOR PLAYER STATS , CSS FOR THIS PART CAN BE FOUND IN stats.css-->
+        <section class="section-player-stats">
+            <div class="doubledborder1"></div>
+            <div class="wrapper_compenent_player">
+
+            </div>
+            <!----DETAILS ABOUT PLAYER STATUS-->
+            <div class="content-grid-status">
+                <div class="content-grid-status-item1">
+                    <p class="grid-first">Myelin Stones</p>
+                    <img src="images/Content_Elements/Myelin_Stones.png" alt="">
+                    <p class="grid-last">12</p>
+                </div>
+                <div class="content-grid-status-item2">
+                    <p class="grid-first">Fire Stones</p>
+                    <img src="images/Content_Elements/Fire_Stones.png" alt="">
+                    <p class="grid-last">15</p>
+                </div>
+                <div class="content-grid-status-item3">
+                    <p class="grid-first">Willpower</p>
+                    <img src="images/Content_Elements/Will_Power.png" alt="">
+                    <p class="grid-last">12</p>
+                </div>
+                <div class="content-grid-status-item4">
+                    <p class="grid-first">Monsters Defeated</p>
+                    <img src="images/Content_Elements/monsters.png" alt="">
+                    <p class="grid-last">1258</p>
+                </div>
+                <div class="content-grid-status-item5">
+                    <p class="grid-first">Dungeons Completed</p>
+                    <img src="images/Content_Elements/dungeons.png" alt="">
+                    <p class="grid-last">1542</p>
+                </div>
+            </div>
+            
+        </section>
+        <div class="canvas-container-global">
+          
+            <div class="canvas-container">
+                <h1>GALLERY</h1>
+                <canvas class="canvas2"  height="200"  >
+                    
+                </canvas>
+                
+                <canvas class="canvas3" height="200" ></canvas>
+                
+            </div>
+       </div>
+        <div class="section-gallery-photos">
+            <div class="bakground-wrapper">
+                <div class="background">
+                    <canvas class="canvas1"></canvas> 
+                    <canvas class="canvas0"></canvas> 
+                    <canvas class="canvas3"></canvas> 
+                    <canvas class="canvas2"></canvas>
+                    
+                </div> 
+            </div>
+            <div class="wrapper_compenent">
+
+             </div>
+            </div>
+         <!--THIS SECTION IS FOR BUTTON CONTINUE QUEST , CSS FOR THIS PART CAN BE FOUND IN stats.css-->
+
+        <!--THIS SECTION IS FOR CHARACTER + CALENDAR STUFF , CSS FOR THIS PART CAN BE FOUND IN content.css-->
+    </main>
+    <script type="module" src="./Script/Player_Compenent.js"></script>
+    <script type="module" src="./Script/Compenent_2.js"></script>
+    <script src="./Script/Compenent.js"></script>
+    <script src="./script_files/lottie.js"></script>
+    <script src="./script_files/data.js"></script>
+
+</body>
+</html>
